@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shangruthan's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #2C3E50;
+            color: #27AE60;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        .main {
+            display: flex;
+            flex-grow: 1;
+            padding: 20px 10%;
+        }
+
+        .left-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-right: 200px;
+        }
+
+        .left-section img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            border: 5px solid #3498DB;
+            border-radius: 10px;
+        }
+
+        .right-section {
+            flex: 2;
+            padding-left: 10px;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #3498DB;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-top: 15px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 20px 10%;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #3498DB;
+            text-decoration: none;
+        }
+
+        .resume-link-container {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #E67E22; /* Orange for Resume Button */
+            color: white;
+            width: fit-content;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .resume-link {
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        .resume-link:hover {
+            background-color: #D35400; /* Darker Orange on Hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shangruthan's Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="mailto:shangrutha@gmail.com">Gmail</a>
+            <a href="https://www.linkedin.com/in/shangruthan">LinkedIn</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="left-section">
+            <img src="WhatsApp Image 2024-03-07 at 23.13.23_73725079.jpg" alt="Your Image">
+            <div class="resume-link-container">
+                <a href="https://ssneduin-my.sharepoint.com/:b:/g/personal/shangruthan22110445_snuchennai_edu_in/EV3zIGQu1ZJOluMfViOgg3EBzX4OK0V80vSZYTrUFwiEDw?e=vXojia" class="resume-link" target="_blank">Download Resume</a>
+            </div>
+        </div>
+        <div class="right-section">
+            <section id="about">
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    Hi, I’m Shangruthan, a dedicated B.Tech student specializing in Computer Science and Cyber Security. With a solid foundation in programming and cybersecurity tools, I enjoy building innovative solutions to challenging problems. My expertise spans threat detection, secure software development, and automation, complemented by certifications that validate my technical skills. Whether I’m solving complex CTF challenges or developing impactful projects, I am committed to creating meaningful solutions that bridge technology and security.
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li><b>Programming Languages:</b> Python, Java, C, C++</li>
+                    <li><b>Databases and Web Development:</b> HTML, CSS, MySQL, SQLite3, React, Node.js, PostgreSQL</li>
+                    <li><b>Cybersecurity Tools:</b> Wireshark, Burp Suite, Metasploit, hping3, macof, Imperva Cloud, SentinelOne, Elasticsearch, Palo Alto Firewall, Fortinet</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li><b>Plant Disease Identification:</b> Achieved 3rd place in DENHACKS Envithon showcasing AI-driven solution for agriculture purposes. <a href="https://github.com/shangruthan/Envithon-PlantDisease">link</a></li>
+                    <li><b>HashGuard Password Manager:</b> A command-line tool for securely managing passwords and profiles with master key authentication and databases. <a href="https://github.com/shangruthan/HashGaurd">link</a></li>
+                    <li><b>DDoS Attack Detection System:</b> A machine learning-based system to identify potential DDoS attacks using K means clustering and silhouette scores. <a href="https://github.com/shangruthan/DDOS-Detection-using-ML">link</a></li>
+                    <li><b>ChatCrypt:</b> An encrypted client-server messaging platform enabling secure real-time communication using python's socket module. <a href="https://github.com/shangruthan/Chat_Crypt">link</a></li>
+                </ul>
+            </section>
+
+            <section id="certifications">
+                <h2 class="section-title">Certifications</h2>
+                <ul>
+                    <li><b>ISC² Certified in Cybersecurity (CC)</b></li>
+                    <li><b>Cisco’s Introduction to Cybersecurity</b></li>
+                    <li><b>EHPT+ Ethical Hacking and Penetration Testing by OSCALY Academy</b></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Shangruthan. Designed with ❤️.</p>
+    </footer>
+</body>
+</html>
